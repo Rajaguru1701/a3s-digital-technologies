@@ -1,0 +1,43 @@
+export const siteConfig = {
+  name: "A3S Digital Technologies",
+  shortName: "A3S Digital",
+  tagline: "Build. Brand. Market. Grow.",
+  eyebrow: "DIGITAL SOLUTIONS FOR GROWING BUSINESSES",
+  description: "We are a full-cycle digital solutions agency based in Madurai, India. We architect modern web apps, design iconic brand identities, drive high-ROI marketing, and deliver robust IT consulting.",
+  address: "51W, Thiruvalluvar Street, Koodal Nagar, Madurai, Tamil Nadu – 625018",
+  phone: "070106 46001",
+  phoneFormatted: "+91 70106 46001",
+  email: "hello@a3sdigital.com",
+  workingHours: "Monday – Saturday 9:30 AM – 7:00 PM, Sunday Closed",
+  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15719.824708782253!2d78.1009137!3d9.9458994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf42e3e571f5%3A0x280e22709292c10b!2sKoodal%20Nagar%2C%20Madurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1709884800000!5m2!1sen!2sin",
+  stats: [
+    { label: "Projects Completed", value: "250+", detail: "Delivered on time & scale" },
+    { label: "Client Satisfaction", value: "98%", detail: "Long-term client partnerships" },
+    { label: "Years Experience", value: "5+", detail: "Industry-proven track record" },
+    { label: "Support Available", value: "24/7", detail: "Proactive maintenance & care" },
+  ],
+  navLinks: [
+    { name: "Home", path: "/" },
+    { name: "Services", path: "/services" },
+    { name: "Process", path: "/process" },
+    { name: "Portfolio", path: "/portfolio" },
+    { name: "About Us", path: "/about" },
+    { name: "Blog", path: "/blog" },
+    { name: "Contact", path: "/contact" },
+  ],
+  socials: [
+    { name: "LinkedIn", href: "https://linkedin.com", icon: "Linkedin" },
+    { name: "Twitter / X", href: "https://twitter.com", icon: "Twitter" },
+    { name: "Instagram", href: "https://instagram.com", icon: "Instagram" },
+    { name: "Facebook", href: "https://facebook.com", icon: "Facebook" },
+    { name: "GitHub", href: "https://github.com", icon: "Github" },
+  ],
+  clientLogos: [
+    { name: "Apex Global", industry: "FinTech" },
+    { name: "NovaRetail", industry: "E-Commerce" },
+    { name: "Vanguard Tech", industry: "SaaS Enterprise" },
+    { name: "Zenith Health", industry: "Telemedicine" },
+    { name: "Aura Logistics", industry: "Supply Chain" },
+    { name: "Koodal Crafts", industry: "D2C Brand" },
+  ]
+};

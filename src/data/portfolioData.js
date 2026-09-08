@@ -1,0 +1,130 @@
+export const portfolioCategories = [
+  "All",
+  "Websites",
+  "Mobile Apps",
+  "UI/UX",
+  "Branding",
+  "Marketing",
+  "Animation",
+  "Business Solutions"
+];
+
+export const portfolioProjects = [
+  {
+    id: "apex-fintech-portal",
+    title: "ApexPay Global Portal",
+    category: "Websites",
+    categoryLabel: "Web Platform",
+    subtitle: "Enterprise FinTech dashboard and multi-currency billing platform",
+    description: "Architected a high-throughput financial transactions dashboard with real-time analytics, automated currency conversion, and instant invoicing for cross-border businesses.",
+    metric: "+340% User Onboarding",
+    client: "Apex Financial UK",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Recharts"],
+    gradient: "from-teal-500/30 to-blue-600/30",
+    accent: "#17A1AB"
+  },
+  {
+    id: "zenith-health-mobile",
+    title: "Zenith Care Telemedicine",
+    category: "Mobile Apps",
+    categoryLabel: "Mobile Application",
+    subtitle: "HIPAA-compliant doctor appointment & video consultation app",
+    description: "Engineered an iOS and Android telemedicine app featuring WebRTC encrypted video consults, digital prescriptions, and seamless sync with diagnostic lab reports.",
+    metric: "4.9/5 Rating (12k+ DLs)",
+    client: "Zenith Health Inc.",
+    tags: ["React Native", "WebRTC", "Node.js", "Tailwind"],
+    gradient: "from-mint/30 to-teal-500/30",
+    accent: "#4DC3B7"
+  },
+  {
+    id: "novaretail-ecommerce-uiux",
+    title: "Nova Retail Experience",
+    category: "UI/UX",
+    categoryLabel: "UI/UX Design",
+    subtitle: "Modernized luxury fashion e-commerce design system & checkout flow",
+    description: "Conducted extensive heuristic evaluations and redesigned the mobile-first customer shopping experience, reducing cart abandonment and elevating visual brand prestige.",
+    metric: "-42% Cart Dropoff",
+    client: "Nova Lifestyle Brands",
+    tags: ["Figma", "Design Systems", "Prototyping", "UX Research"],
+    gradient: "from-purple-500/30 to-indigo-600/30",
+    accent: "#403458"
+  },
+  {
+    id: "aura-brand-identity",
+    title: "Aura Logistics Rebrand",
+    category: "Branding",
+    categoryLabel: "Brand Identity",
+    subtitle: "Comprehensive brand identity, logo mark, and omnichannel guidelines",
+    description: "Crafted a futuristic brand identity for an international supply-chain disruptor, complete with custom iconography, corporate stationery, and fleet typography.",
+    metric: "Global Brand Unification",
+    client: "Aura Supply Chain",
+    tags: ["Brand Book", "Logo System", "Typography", "Illustrator"],
+    gradient: "from-blue-600/30 to-cyan-500/30",
+    accent: "#0065AB"
+  },
+  {
+    id: "saas-lead-gen-engine",
+    title: "SaaS Multi-Channel Scale",
+    category: "Marketing",
+    categoryLabel: "Performance Marketing",
+    subtitle: "Full-funnel Google Ads & LinkedIn lead generation campaign",
+    description: "Designed laser-targeted high-intent PPC search campaigns paired with programmatic landing page experiments that lowered CAC while tripling qualified pipeline opportunities.",
+    metric: "+280% Qualified Leads",
+    client: "CloudPulse SaaS",
+    tags: ["Google Ads", "LinkedIn Ads", "CRO", "HubSpot"],
+    gradient: "from-teal-500/30 to-emerald-500/30",
+    accent: "#17A1AB"
+  },
+  {
+    id: "vanguard-product-explainer",
+    title: "Vanguard 3D/2D Explainer",
+    category: "Animation",
+    categoryLabel: "2D Animation",
+    subtitle: "Dynamic 90-second product launch video and social motion assets",
+    description: "Scripted, storyboarded, and produced an eye-catching 2D motion graphics explainer detailing complex AI cybersecurity infrastructure in an intuitive visual narrative.",
+    metric: "1.2M+ Video Views",
+    client: "Vanguard Tech",
+    tags: ["After Effects", "Lottie", "Storyboarding", "Sound Design"],
+    gradient: "from-purple-600/30 to-pink-600/30",
+    accent: "#403458"
+  },
+  {
+    id: "koodal-erp-platform",
+    title: "Koodal Smart ERP System",
+    category: "Business Solutions",
+    categoryLabel: "IT Solutions",
+    subtitle: "Custom manufacturing ERP with real-time inventory and GST automation",
+    description: "Built a customized web ERP system connecting 4 regional warehouses with barcode tracking, automated purchase ordering, and Indian GST compliant billing workflows.",
+    metric: "-65% Admin Hours",
+    client: "Koodal Industrial Group",
+    tags: ["React", "PostgreSQL", "Docker", "REST APIs"],
+    gradient: "from-cyan-600/30 to-blue-700/30",
+    accent: "#0065AB"
+  },
+  {
+    id: "pulse-fitness-app",
+    title: "Pulse Pro Workout Coach",
+    category: "Mobile Apps",
+    categoryLabel: "Mobile Application",
+    subtitle: "Interactive AI fitness tracking and personalized routine planner",
+    description: "Interactive mobile experience with offline workout logging, audio coach guidance, and Apple Health / Google Fit bi-directional synchronization.",
+    metric: "45k Active Users",
+    client: "Pulse Athletics",
+    tags: ["Flutter", "Firebase", "HealthKit", "UI Animation"],
+    gradient: "from-mint/30 to-teal-600/30",
+    accent: "#4DC3B7"
+  },
+  {
+    id: "heritage-textiles-redesign",
+    title: "Madurai Loom Heritage",
+    category: "Websites",
+    categoryLabel: "E-Commerce Website",
+    subtitle: "Direct-to-consumer artisanal handloom portal with global checkout",
+    description: "Engineered a storytelling-driven e-commerce platform spotlighting traditional weavers with multi-currency pricing, DHL integration, and sub-second page loads.",
+    metric: "3.2x Revenue Growth",
+    client: "Heritage Silk Co.",
+    tags: ["Next.js", "Stripe", "Shopify Headless", "Tailwind"],
+    gradient: "from-teal-600/30 to-indigo-600/30",
+    accent: "#17A1AB"
+  }
+];
